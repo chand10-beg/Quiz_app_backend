@@ -1,0 +1,26 @@
+{
+  "name": "pub_quiz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-ws": "^5.0.2",
+    "express.js": "^1.0.0",
+    "mongoose": "^7.3.2",
+    "socket.io": "^4.7.1",
+    "ws": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha 'test/**/*.js'",
+    "seed": "node models/seed.js"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^10.2.0",
+    "sinon": "^4.1.4",
+    "supertest": "^3.0.0"
+  }
+}

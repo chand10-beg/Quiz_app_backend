@@ -1,2 +1,3 @@
-# Quiz_app_backend
-# Quiz_app_backend
+# fibr quiz app
+
+This API provides end-points for the fibr quiz app.
